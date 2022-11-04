@@ -1,0 +1,23 @@
+{
+  "name": "bfl-database",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "gabrielbrop",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node ."
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.7",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "jsonschema": "^1.4.0",
+    "mongodb": "^4.1.4"
+  }
+}
